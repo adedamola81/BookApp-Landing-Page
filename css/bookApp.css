@@ -16,20 +16,51 @@ html.body {
   background-color: white;
 }
 
+.navbar-toggler,
+.navbar-light {
+  border: none;
+}
+
+/* .navbar-light .navbar-toggler,
+.navbar-toggler-icon {
+  color: #fd954e;
+} */
+
 nav img {
   position: absolute;
   top: 3px;
   left: 12%;
 }
-
+.navbar-light,
+.navbar-nav,
+.nav-link {
+  font-family: lora bold, serif;
+  color: #2b1c13 !important;
+}
 a:link {
   color: #2b1c13;
 }
 .sign-up {
   border-radius: 5px;
 }
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+
 h1 h2 h3 {
-  font-style: "Lora", serif;
+  font-style: "Lora bold ", serif;
+
+  color: #2b1c13;
   text-shadow: black;
 }
 .padding {
@@ -70,7 +101,7 @@ hr {
 }
 .icon-btn {
   display: flex;
-  height: 54px;
+  max-height: 54px;
   padding: 5px 10px;
   /* flex-wrap: wrap; */
 }
@@ -85,8 +116,8 @@ hr {
   height: 100%;
 }
 .icon-text {
-  display: inline;
-  align-items: flex-start;
+  /* display: block;
+  align-items: flex-start; */
   margin: 3px 0;
 }
 
@@ -119,46 +150,16 @@ hr {
   border: none;
   margin-bottom: 1rem;
 }
-/* 
-.star-five {
-  margin: 50px 0;
-  position: relative;
-  display: block;
-  color: red;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
-  border-left: 100px solid transparent;
-  transform: rotate(35deg);
+
+.bookish-text {
+  font-size: 2.5rem;
+  font-family: lora bold;
 }
-.star-five:before {
-  border-bottom: 80px solid red;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -45px;
-  left: -65px;
-  display: block;
-  content: "";
-  transform: rotate(-35deg);
+
+.icon {
+  height: 60px;
+  width: 60px;
 }
-.star-five:after {
-  position: absolute;
-  display: block;
-  color: red;
-  top: 3px;
-  left: -105px;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
-  border-left: 100px solid transparent;
-  transform: rotate(-70deg);
-  content: "";
-} */
 
 footer {
   background-color: #750903;
@@ -171,6 +172,9 @@ footer {
 @media (max-width: 992px) {
   .display-none {
     display: none;
+  }
+  .icon-text {
+    font-size: 10px;
   }
 }
 
