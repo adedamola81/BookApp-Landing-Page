@@ -75,10 +75,13 @@ hr {
   /* flex-wrap: wrap; */
 }
 .icon-btnGP {
-  background-color: #2b1c13;
+  background-color: black;
+  color: white;
 }
 .icon-btnAS {
-  background-color: #e0eceb;
+  background-color: whitesmoke;
+  border: none;
+  height: 100%;
 }
 .icon-text {
   display: inline;
