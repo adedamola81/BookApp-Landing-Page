@@ -96,12 +96,16 @@ hr {
 
   margin: 0.2rem auto 0.9rem auto;
 }
-.col-btn,
-.col {
+.col-btn:not(:last-child) {
   max-width: 200px;
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
 }
+.col-btn:not(:last-child) {
+  margin-left: 2px;
+  margin-right: 40px;
+}
+
 .icon-btn {
   display: flex;
   max-height: 54px;
@@ -112,6 +116,7 @@ hr {
   background-color: black;
   color: white;
   height: 100%;
+  margin-left: 5px;
 }
 .icon-btnAS {
   background-color: #eaeaea;
@@ -217,6 +222,11 @@ footer {
     width: 100%;
     margin: 0 auto;
     padding-top: 10px;
+  }
+
+  .col-btn:not(:last-child) {
+    margin-left: 2px;
+    margin-right: 10px;
   }
 }
 
