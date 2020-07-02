@@ -96,13 +96,16 @@ hr {
 
   margin: 0.2rem auto 0.9rem auto;
 }
-.col-btn {
-  max-width: 50%;
+.col-btn,
+.col {
+  max-width: 200px;
+  padding: 0;
+  margin: 0;
 }
 .icon-btn {
   display: flex;
   max-height: 54px;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
   /* flex-wrap: wrap; */
 }
 .icon-btnGP {
@@ -204,6 +207,16 @@ footer {
   .card-icon {
     height: 50px;
     width: 50px;
+  }
+  footer {
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+    padding-top: 10px;
+  }
+  .container-fluid1 {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 10px;
   }
 }
 
